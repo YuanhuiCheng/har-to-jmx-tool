@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.1" jmeter="3.1 r1770033">
+	<hashTree>
+		<TestPlan guiclass="TestPlanGui" testclass="TestPlan"
+			testname="Test Plan" enabled="true">
+			<stringProp name="TestPlan.comments"></stringProp>
+			<boolProp name="TestPlan.functional_mode">false</boolProp>
+			<boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+			<elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        		<collectionProp name="Arguments.arguments"/>
+      		</elementProp>
+			<stringProp name="TestPlan.user_define_classpath"></stringProp>
+		</TestPlan>
+		<hashTree>
+		<ca.yuanhuicheng.tools.jmeter.addon.element.config.environment.EnvironmentConfig guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.config.environment.EnvironmentConfigGui" testclass="ca.yuanhuicheng.tools.jmeter.addon.element.config.environment.EnvironmentConfig" testname="yuanhuicheng Environment" enabled="true">
+        <stringProp name="yuanhuichengServerAgentProtocol">http</stringProp>
+        <stringProp name="yuanhuichengServerAgentHost">**AgentHost**</stringProp>
+        <stringProp name="yuanhuichengServerAgentPort">80</stringProp>
+        <stringProp name="yuanhuichengServerDirProtocol">http</stringProp>
+        <stringProp name="yuanhuichengServerDirHost"></stringProp>
+        <stringProp name="yuanhuichengServerDirPort">80</stringProp>
+        <stringProp name="yuanhuichengServerSsoProtocol">http</stringProp>
+        <stringProp name="yuanhuichengServerSsoHost">sso.perf.yuanhuicheng.com.test</stringProp>
+        <stringProp name="yuanhuichengServerSsoPort">80</stringProp>
+        <stringProp name="yuanhuichengServerCfProtocol">http</stringProp>
+        <stringProp name="yuanhuichengServerCfHost">cf.domain.twamb.ca</stringProp>
+        <stringProp name="yuanhuichengServerCfPort">80</stringProp>
+        <stringProp name="yuanhuichengServerCfRelayTapPort">9232</stringProp>
+        <stringProp name="yuanhuichengServerCfRelaySmtpPort">25000</stringProp>
+      </ca.yuanhuicheng.tools.jmeter.addon.element.config.environment.EnvironmentConfig>
+      <hashTree/>

@@ -1,0 +1,7 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSamplerGui"
+ testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler" testname="|agent| |register| **PARTICIPANTNAME**" enabled="true">
+          <stringProp name="yuanhuichengApiUnregisterMethod">POST</stringProp>
+          <stringProp name="yuanhuichengApiUnregisterPath">/agent-server/unregister</stringProp>
+          <stringProp name="yuanhuichengApiRegisterPt">**UNREGISTERPT**</stringProp>
+        </ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler>
+        <hashTree/>

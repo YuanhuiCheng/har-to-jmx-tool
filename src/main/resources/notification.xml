@@ -1,0 +1,22 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSamplerGui" 
+testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler" testname="|agent| |poll and receive| |notification|" enabled="true">
+          <stringProp name="yuanhuichengApiWaitingrequestsMethod">POST</stringProp>
+          <stringProp name="yuanhuichengApiWaitingrequestsPath">/agent-server/waitingRequests</stringProp>
+          <stringProp name="yuanhuichengApiRequestnotificationMethod">POST</stringProp>
+          <stringProp name="yuanhuichengApiRequestnotificationPath">/agent-server/requestNotification</stringProp>
+          <stringProp name="yuanhuichengApiWaitingrequestsPollingstyle">active</stringProp>
+          <stringProp name="yuanhuichengApiWaitingrequestsPts">${yuanhuichengApiRegisterAllpt}</stringProp>
+          <stringProp name="yuanhuichengApiRequestnotificationRegex">.*</stringProp>
+          <stringProp name="yuanhuichengApiRequestnotificationPublish">.*</stringProp>
+          <stringProp name="yuanhuichengApiRequestnotificationAttempts">1</stringProp>
+        </ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler>
+        <hashTree>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="script">Participant: **PUTURI**
+Notification:**NOTIFICATIONTEXT**</stringProp>
+            </BeanShellPostProcessor>
+          <hashTree/>
+        </hashTree>

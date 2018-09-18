@@ -1,0 +1,19 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler
+	guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSamplerGui"
+	testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler"
+	testname="|agent| |register| **INSERT NAME**"
+	enabled="true">
+	<stringProp name="yuanhuichengApiRegisterMethod">POST</stringProp>
+	<stringProp name="yuanhuichengApiRegisterPath">/agent-server/register</stringProp>
+	<stringProp name="yuanhuichengApiEnablenotificationsMethod">POST</stringProp>
+	<stringProp name="yuanhuichengApiEnablenotificationsPath">/agent-server/enableNotifications
+	</stringProp>
+	<stringProp name="yuanhuichengApiWaitingrequestsMethod">POST</stringProp>
+	<stringProp name="yuanhuichengApiWaitingrequestsPath">/agent-server/waitingRequests</stringProp>
+	<stringProp name="yuanhuichengApiRegisterBaseuri">**BaseURI**</stringProp>
+	<stringProp name="yuanhuichengApiRegisterName">**ParticipantName**</stringProp>
+	<stringProp name="yuanhuichengApiRegisterPtvar">**Pt**</stringProp>
+	<stringProp name="yuanhuichengApiRegisterCrs">**CRS**</stringProp>
+	<stringProp name="yuanhuichengApiRegisterEor">**EOR**</stringProp>
+</ca.yuanhuicheng.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler>
+<hashTree />

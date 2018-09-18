@@ -1,0 +1,8 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesGui" 
+testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler" testname="|agent| |removeValues|" enabled="true">
+          <stringProp name="yuanhuichengApiRemovevaluesMethod">POST</stringProp>
+          <stringProp name="yuanhuichengApiRemovevaluesPath">/agent-server/removeValues</stringProp>
+          <stringProp name="yuanhuichengApiRemovevaluesPt">**REMOVEVALUEPT**</stringProp>
+          <stringProp name="yuanhuichengApiRemovevaluesSi">**REMOVESI**</stringProp>
+        </ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler>
+        <hashTree/>

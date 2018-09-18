@@ -1,0 +1,11 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler
+	guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.share.ShareValuesSamplerGui"
+	testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler"
+	testname="|agent| |shareValues| **INSERT NAME**" enabled="true">
+	<stringProp name="yuanhuichengApiSharevaluesMethod">POST</stringProp>
+	<stringProp name="yuanhuichengApiSharevaluesPath">/agent-server/shareValues</stringProp>
+	<stringProp name="yuanhuichengApiSharevaluesPt">**SHAREPT**</stringProp>
+	<stringProp name="yuanhuichengApiSharevaluesSi">**SHAREID**</stringProp>
+	<stringProp name="yuanhuichengApiSharevaluesSv">**SHAREVALUES**</stringProp>
+</ca.yuanhuicheng.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler>
+<hashTree />

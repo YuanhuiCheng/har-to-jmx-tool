@@ -1,0 +1,7 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSamplerGui"
+ testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler" testname="|agent| |logout|" enabled="true">
+	<stringProp name="yuanhuichengAuthenticationCredentialsMethod">POST</stringProp>
+    <stringProp name="yuanhuichengAuthenticationCredentialsPath">/agent-server/sso/logout</stringProp>
+</ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler>
+<hashTree/>
+</hashTree>

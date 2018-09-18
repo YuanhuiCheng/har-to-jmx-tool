@@ -1,0 +1,6 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySamplerGui" 
+testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler" testname="|agent| |collaborationDestroy|" enabled="true">
+          <stringProp name="yuanhuichengApiDestroycollaborationMethod">POST</stringProp>
+          <stringProp name="yuanhuichengApiDestroycollaborationPath">/agent-server/destroyCollaboration</stringProp>
+        </ca.yuanhuicheng.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler>
+        <hashTree/>

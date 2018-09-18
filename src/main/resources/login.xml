@@ -1,0 +1,12 @@
+<ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler guiclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSamplerGui" 
+testclass="ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler" testname="|agent| |login|" enabled="true">
+	<stringProp name="yuanhuichengAuthenticationCredentialsMethod">POST</stringProp>
+	<stringProp name="yuanhuichengAuthenticationCredentialsPath">/agent-server/sso/login/service</stringProp>
+	<stringProp name="yuanhuichengAuthenticationCredentialsUsername">**UserName**</stringProp>
+	<stringProp name="yuanhuichengAuthenticationCredentialsPassword">**PassWord**</stringProp>
+	<stringProp name="yuanhuichengAuthenticationCredentialsRangeMinimum">0</stringProp>
+	<stringProp name="yuanhuichengAuthenticationCredentialsRangeMaximum">1</stringProp>
+	<stringProp name="yuanhuichengAuthenticationOnfailureRetriesRetries">0</stringProp>
+	<stringProp name="yuanhuichengAuthenticationOnfailureDelayDelay between">1</stringProp>
+</ca.yuanhuicheng.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler>
+<hashTree/>
